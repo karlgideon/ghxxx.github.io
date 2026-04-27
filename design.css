@@ -1,0 +1,152 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* PAGE STRUCTURE */
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #5B1166;
+    color: #333;
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* MAIN */
+main {
+    flex: 1;
+}
+
+/* HEADER */
+header {
+    background-color: #341539;
+    padding: 20px 40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    color: #9740E1;
+}
+
+/* NAV */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #C5F8FB;
+}
+
+/* HERO / WELCOME */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(to right, #341539, #5B1166);
+
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+.hero h2 {
+    font-size: 42px;
+    color: #9740E1;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    margin-bottom: 25px;
+    color: #94a3b8;
+}
+.hero {
+  flex-direction: column;
+}
+
+/* BUTTON */
+.btn {
+    padding: 10px 30px;
+    background-color: #9740E1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #7a2fc2;
+    transform: scale(1.05);
+}
+
+/* FEATURED SECTION */
+.featured {
+    text-align: center;
+    padding: 40px;
+}
+
+.featured h2 {
+    margin-bottom: 30px;
+    color: #9740E1;
+}
+
+/* CARD CONTAINER (KEY FIX) */
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* CARD */
+.card {
+    background: #83358F;
+    width: 220px;
+    padding: 15px;
+    border-radius: 10px;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    border-radius: 20px;
+    object-fit: cover;
+  
+    
+}
+
+.card h3 {
+    margin: 10px 0;
+    color: whitesmoke;
+}
+
+/* CARD HOVER */
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(151, 64, 225, 0.3);
+}
+
